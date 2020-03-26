@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="319.915" tests="10" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel\target\test-classes;C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel\target\classes;C:\Users\pdars\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pdars\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pdars\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pdars\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pdars\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pdars\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pdars\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pdars\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pdars\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pdars\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pdars\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pdars\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pdars\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pdars\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\pdars\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pdars\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\pdars\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pdars\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pdars\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\pdars\AppData\Local\Temp\surefire8977278351042306788\surefirebooter3305873808564872485.jar C:\Users\pdars\AppData\Local\Temp\surefire8977278351042306788 2020-03-25T23-09-25_502-jvmRun1 surefire3241917405125335330tmp surefire_03768746539751807844tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel\target\test-classes;C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel\target\classes;C:\Users\pdars\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pdars\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\pdars\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\pdars\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\pdars\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\pdars\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\pdars\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\pdars\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\pdars\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\pdars\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\pdars\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\pdars\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\pdars\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\pdars\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\pdars\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\pdars\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\pdars\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\pdars\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\pdars\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\pdars\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pdars"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pdars\AppData\Local\Temp\surefire8977278351042306788\surefirebooter3305873808564872485.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="pdars"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="Sauce" value="false"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pdars\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pdars\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="C:\Users\pdars\IdeaProjects\NopCommercePageObjectModel"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Soft\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files\Java\jdk1.8.0_231/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Users\pdars\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="RegisteredUserShouldBeAbleToReferAFriendSuccessfully" classname="NopComPOM.TestSuit" time="12.736"/>
+  <testcase name="UserShouldAbleToRegisterSuccessfully" classname="NopComPOM.TestSuit" time="55.002">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JAF229B&apos;, ip: &apos;192.168.0.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: b2373959d9f71660e5d7cb88fc5cfe30&#10;*** Element info: {Using=class name, value=result}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JAF229B', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b2373959d9f71660e5d7cb88fc5cfe30
+*** Element info: {Using=class name, value=result}
+	at NopComPOM.TestSuit.UserShouldAbleToRegisterSuccessfully(TestSuit.java:38)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 35063
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585177796.011][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:09:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585177800.040][WARNING]: Timed out connecting to Chrome, retrying...
+[1585177803.418][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177803.623][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177803.843][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177805.135][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177805.295][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully" classname="NopComPOM.TestSuit" time="15.044">
+    <failure message="Compare products expected [compare products] but found [page not found]" type="java.lang.AssertionError">java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at NopComPOM.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(TestSuit.java:50)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 15467
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585177863.184][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:11:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585177867.216][WARNING]: Timed out connecting to Chrome, retrying...
+[1585177871.015][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177872.419][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="UserShouldBeAbleToSortProductHighToLowByPrice" classname="NopComPOM.TestSuit" time="4.652"/>
+  <testcase name="guestUserShouldBeAbleToCheckoutSuccessfully" classname="NopComPOM.TestSuit" time="87.914">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[contains(text(),&apos;processed&apos;)]&quot;}&#10;  (Session info: chrome=80.0.3987.149)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-JAF229B&apos;, ip: &apos;192.168.0.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 8a488bec17be9310ff16e0a17f811a0d&#10;*** Element info: {Using=xpath, value=//strong[contains(text(),&apos;processed&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//strong[contains(text(),'processed')]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JAF229B', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a488bec17be9310ff16e0a17f811a0d
+*** Element info: {Using=xpath, value=//strong[contains(text(),'processed')]}
+	at NopComPOM.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully(TestSuit.java:130)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 37268
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585177907.390][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:11:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585177911.465][WARNING]: Timed out connecting to Chrome, retrying...
+[1585177914.751][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177914.971][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177915.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585177938.568][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="nonRegisterUserShouldNotBeAbleToReferAProductToAFriend" classname="NopComPOM.TestSuit" time="7.431"/>
+  <testcase name="userShouldBeAbleToAddNewCommentOnNopCommerceWeb" classname="NopComPOM.TestSuit" time="11.043"/>
+  <testcase name="userShouldBeAbleToVerifyCurrencyChange" classname="NopComPOM.TestSuit" time="2.409">
+    <failure message="The following asserts failed:&#10;	$ not foundЂ1032.00 expected [true] but found [false],&#10;	$ not foundЂ1548.00 expected [true] but found [false],&#10;	$ not foundЂ210.70 expected [true] but found [false],&#10;	$ not foundЂ21.50 expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: 
+The following asserts failed:
+	$ not foundЂ1032.00 expected [true] but found [false],
+	$ not foundЂ1548.00 expected [true] but found [false],
+	$ not foundЂ210.70 expected [true] but found [false],
+	$ not foundЂ21.50 expected [true] but found [false]
+	at NopComPOM.TestSuit.userShouldBeAbleToVerifyCurrencyChange(TestSuit.java:144)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+?1032.00
+***************
+?1548.00
+***************
+?210.70
+***************
+?21.50
+***************
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 35385
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585178049.814][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:14:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585178053.856][WARNING]: Timed out connecting to Chrome, retrying...
+[1585178057.160][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178057.293][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178057.427][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178057.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178059.712][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartButtonIsPresentInAllFeaturedProducts" classname="NopComPOM.TestSuit" time="0.058">
+    <failure message="Some of items does not have ADD TO CART button expected [4] but found [1]" type="java.lang.AssertionError">java.lang.AssertionError: Some of items does not have ADD TO CART button expected [4] but found [1]
+	at NopComPOM.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts(TestSuit.java:152)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 29227
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585178064.485][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:14:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585178068.512][WARNING]: Timed out connecting to Chrome, retrying...
+[1585178072.112][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178072.365][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCompareButtonForEachProduct" classname="NopComPOM.TestSuit" time="0.079">
+    <failure message="£ not found  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: £ not found  expected [true] but found [false]
+	at NopComPOM.TestSuit.verifyAddToCompareButtonForEachProduct(TestSuit.java:111)
+</failure>
+    <system-out><![CDATA[We are using... chromebrowser
+darshitp
+489e6b23-6cf1-4f0a-b142-311fcacd43ca
+$1,200.00
+*************
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 21794
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1585178076.844][WARNING]: Timed out connecting to Chrome, retrying...
+Mar 25, 2020 11:14:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1585178080.907][WARNING]: Timed out connecting to Chrome, retrying...
+[1585178084.470][SEVERE]: Timed out receiving message from renderer: 0.100
+[1585178084.924][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+  </testcase>
+</testsuite>

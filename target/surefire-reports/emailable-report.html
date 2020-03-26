@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">319,110</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="6">NopComPOM.TestSuit</td><td><a href="#m0">UserShouldAbleToRegisterSuccessfully</a></td><td rowspan="1">1585177803854</td><td rowspan="1">54994</td></tr><tr class="failedeven"><td><a href="#m1">UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully</a></td><td rowspan="1">1585177871056</td><td rowspan="1">15043</td></tr><tr class="failedeven"><td><a href="#m2">guestUserShouldBeAbleToCheckoutSuccessfully</a></td><td rowspan="1">1585177915300</td><td rowspan="1">87910</td></tr><tr class="failedeven"><td><a href="#m3">userShouldBeAbleToVerifyCurrencyChange</a></td><td rowspan="1">1585178057618</td><td rowspan="1">2408</td></tr><tr class="failedeven"><td><a href="#m4">verifyAddToCartButtonIsPresentInAllFeaturedProducts</a></td><td rowspan="1">1585178072444</td><td rowspan="1">58</td></tr><tr class="failedeven"><td><a href="#m5">verifyAddToCompareButtonForEachProduct</a></td><td rowspan="1">1585178084941</td><td rowspan="1">80</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">NopComPOM.TestSuit</td><td><a href="#m6">RegisteredUserShouldBeAbleToReferAFriendSuccessfully</a></td><td rowspan="1">1585177779270</td><td rowspan="1">12733</td></tr><tr class="passedeven"><td><a href="#m7">UserShouldBeAbleToSortProductHighToLowByPrice</a></td><td rowspan="1">1585177898629</td><td rowspan="1">4653</td></tr><tr class="passedeven"><td><a href="#m8">nonRegisterUserShouldNotBeAbleToReferAProductToAFriend</a></td><td rowspan="1">1585178015558</td><td rowspan="1">7432</td></tr><tr class="passedeven"><td><a href="#m9">userShouldBeAbleToAddNewCommentOnNopCommerceWeb</a></td><td rowspan="1">1585178034811</td><td rowspan="1">11043</td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">NopComPOM.TestSuit#UserShouldAbleToRegisterSuccessfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.result&quot;}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAF229B&apos;, ip: &apos;192.168.0.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b2373959d9f71660e5d7cb88fc5cfe30
+*** Element info: {Using=class name, value=result}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at NopComPOM.Utils.getTextFromElement(Utils.java:31)
+	at NopComPOM.Utils.assertTextMessage(Utils.java:82)
+	at NopComPOM.RegistrationResultPage.VerifyUserRegistrationSuccessMessage(RegistrationResultPage.java:12)
+	at NopComPOM.TestSuit.UserShouldAbleToRegisterSuccessfully(TestSuit.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">NopComPOM.TestSuit#UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at NopComPOM.Utils.assertTextMessage(Utils.java:83)
+	at NopComPOM.ProductComparison.VerifyUserIsOnComparisionPage(ProductComparison.java:10)
+	at NopComPOM.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(TestSuit.java:50)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">NopComPOM.TestSuit#guestUserShouldBeAbleToCheckoutSuccessfully</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//strong[contains(text(),&apos;processed&apos;)]&quot;}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-JAF229B&apos;, ip: &apos;192.168.0.34&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a488bec17be9310ff16e0a17f811a0d
+*** Element info: {Using=xpath, value=//strong[contains(text(),&apos;processed&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at NopComPOM.Utils.clickOnElement(Utils.java:24)
+	at NopComPOM.CheckoutResult.verifyCheckoutSuccessMessage(CheckoutResult.java:18)
+	at NopComPOM.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully(TestSuit.java:130)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">NopComPOM.TestSuit#userShouldBeAbleToVerifyCurrencyChange</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	$ not foundЂ1032.00 expected [true] but found [false],
+	$ not foundЂ1548.00 expected [true] but found [false],
+	$ not foundЂ210.70 expected [true] but found [false],
+	$ not foundЂ21.50 expected [true] but found [false]
+	at NopComPOM.ChangeCurrency.verifyCurrencyChangeFromUsDollarToEuro(ChangeCurrency.java:34)
+	at NopComPOM.TestSuit.userShouldBeAbleToVerifyCurrencyChange(TestSuit.java:144)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">NopComPOM.TestSuit#verifyAddToCartButtonIsPresentInAllFeaturedProducts</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Some of items does not have ADD TO CART button expected [4] but found [1]
+	at NopComPOM.HomePage.checkAddtoCartButtonOnAllProducts(HomePage.java:53)
+	at NopComPOM.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts(TestSuit.java:152)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">NopComPOM.TestSuit#verifyAddToCompareButtonForEachProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: £ not found  expected [true] but found [false]
+	at NopComPOM.TestSuit.verifyAddToCompareButtonForEachProduct(TestSuit.java:111)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">NopComPOM.TestSuit#RegisteredUserShouldBeAbleToReferAFriendSuccessfully</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">NopComPOM.TestSuit#UserShouldBeAbleToSortProductHighToLowByPrice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">NopComPOM.TestSuit#nonRegisterUserShouldNotBeAbleToReferAProductToAFriend</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">NopComPOM.TestSuit#userShouldBeAbleToAddNewCommentOnNopCommerceWeb</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

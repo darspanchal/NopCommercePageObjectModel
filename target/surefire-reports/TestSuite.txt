@@ -1,0 +1,51 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 319.915 s <<< FAILURE! - in TestSuite
+UserShouldAbleToRegisterSuccessfully(NopComPOM.TestSuit)  Time elapsed: 55.002 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".result"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JAF229B', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58652}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b2373959d9f71660e5d7cb88fc5cfe30
+*** Element info: {Using=class name, value=result}
+	at NopComPOM.TestSuit.UserShouldAbleToRegisterSuccessfully(TestSuit.java:38)
+
+UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(NopComPOM.TestSuit)  Time elapsed: 15.044 s  <<< FAILURE!
+java.lang.AssertionError: Compare products expected [compare products] but found [page not found]
+	at NopComPOM.TestSuit.UserShouldBeAbleToCompareTwoDifferentProductsSuccessfully(TestSuit.java:50)
+
+guestUserShouldBeAbleToCheckoutSuccessfully(NopComPOM.TestSuit)  Time elapsed: 87.914 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//strong[contains(text(),'processed')]"}
+  (Session info: chrome=80.0.3987.149)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-JAF229B', ip: '192.168.0.34', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\pdars\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58769}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8a488bec17be9310ff16e0a17f811a0d
+*** Element info: {Using=xpath, value=//strong[contains(text(),'processed')]}
+	at NopComPOM.TestSuit.guestUserShouldBeAbleToCheckoutSuccessfully(TestSuit.java:130)
+
+userShouldBeAbleToVerifyCurrencyChange(NopComPOM.TestSuit)  Time elapsed: 2.409 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	$ not found?1032.00 expected [true] but found [false],
+	$ not found?1548.00 expected [true] but found [false],
+	$ not found?210.70 expected [true] but found [false],
+	$ not found?21.50 expected [true] but found [false]
+	at NopComPOM.TestSuit.userShouldBeAbleToVerifyCurrencyChange(TestSuit.java:144)
+
+verifyAddToCartButtonIsPresentInAllFeaturedProducts(NopComPOM.TestSuit)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.AssertionError: Some of items does not have ADD TO CART button expected [4] but found [1]
+	at NopComPOM.TestSuit.verifyAddToCartButtonIsPresentInAllFeaturedProducts(TestSuit.java:152)
+
+verifyAddToCompareButtonForEachProduct(NopComPOM.TestSuit)  Time elapsed: 0.079 s  <<< FAILURE!
+java.lang.AssertionError: £ not found  expected [true] but found [false]
+	at NopComPOM.TestSuit.verifyAddToCompareButtonForEachProduct(TestSuit.java:111)
+
